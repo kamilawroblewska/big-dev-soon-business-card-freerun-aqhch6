@@ -1,19 +1,18 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+body {
+  background-color: rgb(193, 48, 140);
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-}
+ .card {
+  position: sticky;
+  background-color: white;
+  max-width: 500px;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: 0px;
+  padding: 250px;
+  box-shadow: 7px 7px 10px rgb(227, 165, 215);
+  border: 1px rgb(227, 165, 215);
+  
 
-.footer span {
-  font-size: 14px;
 }
