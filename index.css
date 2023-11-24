@@ -1,18 +1,35 @@
-body {
-  background-color: rgb(193, 48, 140);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
- .card {
-  position: sticky;
-  background-color: white;
-  max-width: 500px;
-  height: 100%;
-  margin: auto;
-  border-radius: 10px;
-  border: 0px;
-  padding: 250px;
-  box-shadow: 7px 7px 10px rgb(227, 165, 215);
-  border: 1px rgb(227, 165, 215);
-  
+body {
 
+  height: 100vh;
+  background: rgb(223, 173, 204);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.card {
+  width: 800px;
+  height: 500px;
+  padding: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px  rgb(191, 164, 181);
+  border: 1px solid rgb(202, 168, 189);
+  
+}
+
+.footer {
+  overflow: auto;
+  opacity: 0;
 }
