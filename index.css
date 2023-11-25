@@ -181,5 +181,63 @@ h2 {
   
 }
 
+.user-info {
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
 
+}
+.title, .title2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.format {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0) ;
+  font-weight: lighter;
+ 
+}
+.title {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(170, 102, 144);
+  letter-spacing: 2px;
 
+}
+.title2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  letter-spacing: 2px;
+}
+.note {
+  font-size: 14px;
+  color: black;
+  font-weight: lighter;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.techno {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.techno1, li {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-position: inside;
+}
