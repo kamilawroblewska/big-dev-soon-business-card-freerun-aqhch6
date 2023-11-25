@@ -1,32 +1,62 @@
+
+@media only screen and (max-width: 800px) {
+  
+  body {
+
+    background: rgb(223, 173, 204);
+   
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
+
 
 body {
 
   height: 100vh;
   background: rgb(223, 173, 204);
-  background-size: cover;
-  background-position: center;
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+
 }
+
 
 .card {
   width: 800px;
   height: 500px;
   padding: 40px;
-  text-align: center;
   background: white;
   border-radius: 20px;
   box-shadow: 8px 8px 10px  rgb(191, 164, 181);
   border: 1px solid rgb(202, 168, 189);
+  display: flex;
+  align-items: center;
+  justify-content: left;
 
+}
+.links {
+  background: rgb(170, 102, 144);
+  width: 270px;
+  height: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: -40px;
+  
+  
+}
+.container {
+
+}
+
+
+.phone {
+ 
 }
 
 .footer {
@@ -37,121 +67,101 @@ body {
 
 .links {
   background: rgb(170, 102, 144);
-  width: 300px;
+  width: 270px;
   height: 500px;
-  margin: -41px -40px;
-  text-align: center;
-  position: relative;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  z-index: 9;
-}
-.flow {
-  background-color: rgba(255, 255, 255, 0.701);
-  position: absolute;
-  width: 300px;
-  height: 22px;
-  top: 470px;
-  left: 263px;
-  z-index: 10;
+  margin-left: -40px;
   
 }
 
+.flow {
+  background-color: rgba(255, 255, 255, 0.701);
+  width: 270px;
+  height: 22px;
+
+}
+
 .email-icon {
- width: 15px;
- position: absolute;
- left: 32px;
- top: 250px;
- z-index: 10;
+ width: 13px;
+ 
 }
 .text-email {
- left: 57px;
- top: 250px;
- position: absolute;
- z-index: 10;
- font-size: 15px;
+ 
+ font-size: 13px;
  font-family: Arial, Helvetica, sans-serif;
  color: rgb(233, 216, 226) ;
  font-weight: bold
+ 
 }
 .link-email, p {
-  left: 32px;
- top: 275px;
- position: absolute;
- z-index: 10;
- font-size: 15px;
+
+ font-size: 13px;
  font-family: Arial, Helvetica, sans-serif;
  color: rgb(233, 216, 226) ;
  font-weight: lighter;
+ 
 }
 
 .phone-icon {
-  width: 15px;
-  position: absolute;
-  left: 32px;
-  top: 300px;
-  z-index: 10;
+  width: 13px;
+
+  
  }
 
 h2 {
-  left: 57px;
-  top: 300px;
-  z-index: 10;
-  font-size: 15px;
+
+  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(233, 216, 226) ;
-  z-index: 10;
-  position: absolute;
   font-weight: bold;
 }
 .phone-number, p{
- left: 32px;
- top: 325px;
- z-index: 10;
- font-size: 15px;
+
+ font-size: 13px;
  font-family: Arial, Helvetica, sans-serif;
  color: rgb(233, 216, 226) ;
  font-weight: lighter;
- position: absolute;
+ 
 }
 .where {
-  left: 32px;
-  top: 410px;
-  z-index: 10;
-  font-size: 15px;
+
+  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(233, 216, 226) ;
   font-weight: bold;
-  position: absolute;
+  text-align: left;
+  
 }
 
 .github-icon {
-  width: 15px;
-  position: absolute;
-  left: 32px;
-  top: 435px;
-  z-index: 10;
+  width: 18px;
+  
 }
 .github-icon:hover {
   opacity: 0.3;
 }
 .linkedin-icon {
-  width: 15px;
-  position: absolute;
-  left: 57px;
-  top: 435px;
-  z-index: 10;
+  width: 18px;
+ 
 }
 .linkedin-icon:hover {
   opacity: 0.3;
 }
 .twitter-icon {
-  width: 15px;
-  position: absolute;
-  left: 82px;
-  top: 435px;
-  z-index: 10;
+  width: 18px;
+
+ 
 }
 .twitter-icon:hover {
   opacity: 0.3;
+}
+
+.beauty {
+  width: 260px;
+  height: 400px;
+} 
+.stoper {
+  height: 400px;
+  
 }
