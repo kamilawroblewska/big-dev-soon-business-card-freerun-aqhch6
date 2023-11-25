@@ -57,7 +57,7 @@ body {
   gap: 6px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 70%;
+  margin-top: 78%;
   align-items: center;
 }
 
@@ -66,13 +66,27 @@ body {
   margin-top: 5px;
 }
 
-.container {
-
+.phone {
+  gap: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.phone-number {
+  width: 100%;
+  margin-top: 5px;
 }
 
+.container2 {
+  gap: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-.phone {
- 
+.github-icon, .twitter-icon, .linkedin-icon, .where {
+  width: 100%;
+  margin-top: 5px;
 }
 
 .footer {
@@ -80,16 +94,6 @@ body {
   opacity: 0;
 }
 
-
-.links {
-  background: rgb(170, 102, 144);
-  width: 270px;
-  height: 500px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  margin-left: -40px;
-  
-}
 
 .flow {
   background-color: rgba(255, 255, 255, 0.701);
@@ -147,7 +151,6 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(233, 216, 226) ;
   font-weight: bold;
-  text-align: left;
   
 }
 
@@ -178,6 +181,3 @@ h2 {
   width: 260px;
   height: 400px;
 } 
-.stoper {
-  height: 400px;
-}
