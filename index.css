@@ -41,15 +41,31 @@ body {
 
 }
 .links {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
   background: rgb(170, 102, 144);
   width: 270px;
   height: 500px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-left: -40px;
-  
-  
 }
+
+.email {
+  gap: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70%;
+  align-items: center;
+}
+
+.link-email {
+  width: 100%;
+  margin-top: 5px;
+}
+
 .container {
 
 }
@@ -77,6 +93,7 @@ body {
 
 .flow {
   background-color: rgba(255, 255, 255, 0.701);
+  margin-left: -30px;
   width: 270px;
   height: 22px;
 
@@ -163,5 +180,4 @@ h2 {
 } 
 .stoper {
   height: 400px;
-  
 }
