@@ -33,7 +33,7 @@ body {
   border: 1px solid rgb(202, 168, 189);
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 
 }
 .links {
@@ -199,10 +199,10 @@ h2 {
   gap: 5px;
 }
 .format {
-  font-size: 12px;
+  font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0) ;
-  font-weight: lighter;
+  font-weight: bold
  
 }
 .title {
@@ -240,4 +240,68 @@ h2 {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   list-style-position: inside;
+}
+
+.right-corner {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 50px;
+  margin-left: -51px;
+  margin-top: -449px;
+  background-color: rgb(170, 102, 144);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 60px;
+}
+
+.squareleft {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+ margin-left: -25%;
+ margin-top: -33%;
+ 
+  
+}
+.circleright {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(170, 102, 144);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+ margin-left: 67%;
+ margin-top: -3%;
+
+}
+.squareright {
+  display: flex;
+  background-color: rgb(113, 97, 109);
+ height: 20px;
+ width: 70px;
+ margin-left: -890%;
+ margin-top: 65%;
+ 
+ 
+}
+.lastsquare {
+  display: flex;
+  background-color: rgb(180, 161, 175);
+  height: 40px;
+ width: 50px;
+ margin-top: -30%;
+ margin-left: -5%;
+ transform: translate(-50%);
+}
+.lastcircle {
+  display: flex;
+  background-color: rgb(127, 51, 96);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ margin-left: -651%;
+ margin-top: -6%;
+ transform: translate(-50%);
 }
