@@ -1,7 +1,10 @@
 @media screen and (max-width:481px) {
   body {
-  width: 200%;
+   width: 200%;
   
+  }
+  .middle {
+    margin-left: 5%;
   }
  
 }
