@@ -178,9 +178,26 @@ h2 {
   justify-content: center;
   transform: translate(-14%);
   border-radius: 10px 100px / 120px;
-  
+  animation: bounce-in 2s ease alternate;
 }
 
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .user-info {
   gap: 18px;
   display: flex;
