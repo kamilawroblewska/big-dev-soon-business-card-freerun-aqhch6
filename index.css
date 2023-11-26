@@ -1,20 +1,15 @@
 @media screen and (max-width:481px) {
   body {
-   width: 200%;
-  
+   width: 200%; 
   }
   .middle {
-    margin-left: 5%;
+   margin-left: 5%;
   }
- 
 }
 
 @media only screen and (max-width: 800px) {
-  
   body {
-
-    background: rgb(223, 173, 204);
-   
+   background: rgb(223, 173, 204);
   }
 }
 
@@ -23,7 +18,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   height: 100vh;
@@ -46,6 +40,7 @@ body {
   justify-content: center;
 
 }
+
 .links {
   gap: 30px;
   display: flex;
@@ -78,6 +73,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .phone-number {
   width: 100%;
   margin-top: 5px;
@@ -100,84 +96,74 @@ body {
   opacity: 0;
 }
 
-
 .flow {
   background-color: rgba(255, 255, 255, 0.701);
   margin-left: -30px;
   width: 270px;
   height: 22px;
-
 }
 
 .email-icon {
  width: 13px;
- 
 }
+
 .text-email {
- 
  font-size: 13px;
  font-family: Arial, Helvetica, sans-serif;
  color: rgb(233, 216, 226) ;
  font-weight: bold
- 
 }
-.link-email, p {
 
+.link-email, p {
  font-size: 13px;
  font-family: Arial, Helvetica, sans-serif;
  color: rgb(233, 216, 226) ;
  font-weight: lighter;
- 
 }
 
 .phone-icon {
   width: 13px;
-
-  
  }
 
 h2 {
-
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(233, 216, 226) ;
   font-weight: bold;
 }
-.phone-number, p{
 
+.phone-number, p{
  font-size: 13px;
  font-family: Arial, Helvetica, sans-serif;
  color: rgb(233, 216, 226) ;
  font-weight: lighter;
- 
 }
-.where {
 
+.where {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(233, 216, 226) ;
   font-weight: bold;
-  
 }
 
 .github-icon {
   width: 18px;
-  
 }
+
 .github-icon:hover {
   opacity: 0.3;
 }
+
 .linkedin-icon {
   width: 18px;
- 
 }
+
 .linkedin-icon:hover {
   opacity: 0.3;
 }
+
 .twitter-icon {
   width: 18px;
-
- 
 }
 .twitter-icon:hover {
   opacity: 0.3;
@@ -207,44 +193,48 @@ h2 {
   100% {
     transform: scale(1);
   }
+
 }
 .user-info {
   gap: 18px;
   display: flex;
   flex-direction: column;
-
 }
+
 .title, .title2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
+
 .second {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 5px;
 }
+
 .format {
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0) ;
   font-weight: bold
- 
 }
+
 .title {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(170, 102, 144);
   letter-spacing: 2px;
-
 }
+
 .title2 {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   letter-spacing: 2px;
 }
+
 .note {
   font-size: 14px;
   color: black;
@@ -258,7 +248,6 @@ h2 {
   font-weight: bold;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .techno1, li {
@@ -287,11 +276,10 @@ h2 {
   background-color: rgb(255, 255, 255);
   width: 50px;
   height: 50px;
- margin-left: -25%;
- margin-top: -33%;
- 
-  
+  margin-left: -25%;
+  margin-top: -33%;
 }
+
 .circleright {
   display: flex;
   flex-direction: column;
@@ -299,36 +287,36 @@ h2 {
   width: 70px;
   height: 70px;
   border-radius: 50%;
- margin-left: 67%;
- margin-top: -3%;
-
+  margin-left: 67%;
+  margin-top: -3%;
 }
+
 .squareright {
   display: flex;
   background-color: rgb(113, 97, 109);
- height: 20px;
- width: 70px;
- margin-left: -890%;
- margin-top: 65%;
- 
- 
+  height: 20px;
+  width: 70px;
+  margin-left: -890%;
+  margin-top: 65%;
 }
+
 .lastsquare {
   display: flex;
   background-color: rgb(180, 161, 175);
   height: 40px;
- width: 50px;
- margin-top: -30%;
- margin-left: -5%;
- transform: translate(-50%);
+  width: 50px;
+  margin-top: -30%;
+  margin-left: -5%;
+  transform: translate(-50%);
 }
+
 .lastcircle {
   display: flex;
   background-color: rgb(127, 51, 96);
   width: 50px;
   height: 50px;
   border-radius: 50%;
- margin-left: -651%;
- margin-top: -6%;
- transform: translate(-50%);
+  margin-left: -651%;
+  margin-top: -6%;
+  transform: translate(-50%);
 }
